@@ -1,0 +1,12 @@
+h1 {
+    color: blueviolet;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    
+}
+
+#different {
+    color: brown;
+}

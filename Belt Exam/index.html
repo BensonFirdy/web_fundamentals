@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="container">
+        <div class="flex">
+            <h1>Just<span class="orange-text">Dessert</span></h1>
+            <div class="flex">
+                <button class="btn1" onclick="hide(this)">Join</button>
+                <button class="btn2">Login</button>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- nav start -->
+    <nav class="container flex mb">
+        <input type="text" placeholder="Search" name="search" id="search" oninput="alertInfo(this)">
+        <button class="btn3" onclick="alertItem()" type="submit">GO</button>
+        <div>
+            <img class="nav-img" src="./imgs/cake.png" alt="Cakes"><br>
+            <p>Cakes</p>
+        </div>
+        <div>
+            <img class="nav-img" src="./imgs/ice-cream.png" alt="Ice Cream">
+            <p>Ice Cream</p>
+        </div>
+        <div>
+            <img class="nav-img" src="./imgs/cookie.png" alt="Cookies">
+            <p>Cookies</p>
+        </div>
+        <div>
+            <img class="nav-img" src="./imgs/pie.png" alt="Pie">
+            <p>Pie</p>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- main start -->
+    <main class="container flex">
+        <div class="big-box mb">
+            <h3>Recipe of the Day</h3>
+            <img class="main-img mb" src="./imgs/orange-tart.jpg" alt="Orange Tart">
+            <div>
+                <div class="flex">
+                    <p class="text-box">Orange Tea Jelly Tart by: <a href="blank">yuripiano</a></p>
+                    <div class="flex1"><img onclick="pressHeart()" class="heart-img" src="./imgs/heart.png" alt="heart"><span id="itemCount">68</span></div>
+                </div>
+                <p class="link-text mb"><a href="link">See Full Recipe</a></p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h4>Recommended for you:</h4>
+                <div class="strike mb"></div>
+            </div>
+            <div>
+                <img class="small-img mb" src="./imgs/macarons.jpg" alt="Macarons">
+                <div class="flex mb">
+                    <p class="text-box2">Macrons by: <a href="blank">EmilieW</a></p>
+                    <div class="flex1"><img onclick="pressHeart1()" class="heart-img" src="./imgs/heart.png" alt="heart"><span id="itemCount1">212</span></div>
+                </div>
+            </div>
+            <div>
+                <img class="small-img mb" src="./imgs/creme-brulee.jpg" alt="creme Brulee">
+                <div class="flex mb">
+                    <p class="text-box1">Créme Brûlée by: <a href="blank">MarisaG</a></p>
+                    <div class="flex1"><img onclick="pressHeart2()" class="heart-img" src="./imgs/heart.png" alt="heart"><span id="itemCount2">33</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- main end -->
+    <script src="./script.js"></script>
+</body>
+</html>

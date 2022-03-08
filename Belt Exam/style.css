@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+/* utlities */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.flex1 {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+/* utlities */
+
+/* header and nav styles */
+header {
+  background-color: #333333;
+  color: white;
+  padding: 10px 30px;
+}
+
+.orange-text {
+  color: #d3830c;
+}
+
+
+nav {
+    padding: 30px;
+    background-color: #f9cb9c;
+}
+
+.nav-img {
+    width: 55%;
+    background-color: white;
+}
+/* header and nav styles */
+
+/* main styles */
+.main-img {
+    width: 425px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.big-box {
+    background-color: #eeeeee;
+    width: 450px;
+}
+
+h3 {
+    text-align: center;
+    pad: 10px;
+}
+
+.heart-img {
+    width: 20px;
+    
+}
+
+.text-box {
+    inline-size: 170px;
+    overflow-wrap: break-word;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+}
+
+.text-box1 {
+    inline-size: 120px;
+    overflow-wrap: break-word;
+}
+
+.text-box2 {
+    inline-size: 120px;
+    overflow-wrap: break-word;
+}
+
+.strike {
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+
+.link-text {
+    text-align: center;
+    pad: 10px;
+}
+
+.small-img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn1 {
+    color: black;
+    background-color: #ff9900;
+    width: 55px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.btn2 {
+    color: white;
+    background-color: #085394;
+    width: 55px;
+    box-shadow: 3px 3px 1px black;
+}
+
+.btn3 {
+    color: white;
+    background-color: #085394;
+    width: 55px;
+    box-shadow: 3px 3px 1px black;
+}
+/* main styles */

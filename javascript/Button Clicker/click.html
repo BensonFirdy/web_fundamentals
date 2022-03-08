@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./click.css">
+</head>
+<body>
+    <div class="body">
+        <div class="header flex">
+            <h1>Dojonary</h1>
+            <!-- <nav> -->
+            <input type="text" placeholder="Search" name="search" id="search">
+            <button onclick="change(this)" type="submit">Login</button>
+            <!-- </nav> -->
+        </div>
+        <div>
+            <div class="flex">
+                <div class="box1">
+                    <h2>ninja</h2>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                    <span><p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p></span>
+                </div>
+                <h3 class="box2">
+                        Dojonary is defined by YOU
+                        <br>
+                        <button type="submit" id="dummy" value="Remove Dummy" onclick="removeDummy()">Add Definition</button>
+                </h3>
+            </div>
+            <div class="box3">
+                <h2>ninja</h2>
+                <p><em>noun</em></p>
+                <p>Plural: <em>ninjas</em></p>
+                <button type="submit" onclick="alert('Ninja was liked')">13 likes</button>
+                <p>A <a href="">programmer</a> who breaks down probelms with <a href="">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+    <script src="./click.js"></script>
+</body>
+</html>

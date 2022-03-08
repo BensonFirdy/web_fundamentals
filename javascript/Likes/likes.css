@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Balsamiq Sans", cursive;
+  }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid black;
+    /* font-family: 'Balsamiq Sans', cursive;
+    word-wrap: normal; */
+    width: 300px;
+    height: 100px;
+}
+
+.flex1 {
+    flex: 3;
+}
+
+.flex2 {
+    flex: 1;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+header {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.feed {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+}
+
+.box-icon{
+    border: 2px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: auto;
+    padding-right: auto; */
+    /* margin: 0 auto; */
+}

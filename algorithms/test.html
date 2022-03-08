@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GamingDojo</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <header class="mb">
+      <div class="container flex">
+        <h1>Gaming<span class="purple-text">Dojo</span></h1>
+        <div class="header-right flex">
+          <select name="blah" id="blah">
+            <option value="">Euro €</option>
+          </select>
+          <img src="blah" alt="Shopping Cart" />
+          <p id="itemCount">0</p>
+          <img src="blah" alt="Search Light" />
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="highlights mb">
+        <h2 class="mb">Hightlights</h2>
+        <div class="carousel flex">
+          <img onclick="prevPic()" src="blah" alt="left chevron" />
+          <img id="banner" class="mb" src="blah" alt="Banner image" />
+          <img
+            onclick="nextPic()"
+            class="flipped"
+            src="blah"
+            alt="right chevron"
+          />
+        </div>
+        <div class="indicators flex">
+          <div class="grey-bg indicator"></div>
+          <div class="indicator purple-bg"></div>
+          <div class="grey-bg indicator"></div>
+          <div class="grey-bg indicator"></div>
+        </div>
+      </div>
+      <div class="features flex">
+        <div class="feature">
+          <img class="feature-img" src="blah" alt="Cafe Neko" />
+          <div class="feature-copy">
+            <h2>Cafe Neko: Gold Edition</h2>
+            <img class="os-icon mb" src="blah" alt="Windows" />
+            <img class="os-icon mb" src="blah" alt="Apple" />
+            <div class="buy">
+              <button class="btn purple-bg">-20%</button>
+              <div class="prices">
+                <p class="old-prices">€14.98</p>
+                <p class="new-prices">€10.49</p>
+              </div>
+              <button onclick="buyItem()" class="btn green-bg">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="blah" alt="Pixel Ninjas 2" />
+          <div class="feature-copy">
+            <h2>Pixel Ninjas 2</h2>
+            <img class="os-icon mb" src="blah" alt="Windows" />
+            <img class="os-icon mb" src="blah" alt="Apple" />
+            <div class="buy">
+              <button class="btn purple-bg">-20%</button>
+              <div class="prices">
+                <p class="old-prices">€8.19</p>
+                <p class="new-prices">€7.39</p>
+              </div>
+              <button onclick="buyItem()" class="btn green-bg">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <img class="feature-img" src="blah" alt="Stone Punk" />
+          <div class="feature-copy">
+            <h2>Stone Punk 10000 BCE</h2>
+            <img class="os-icon mb" src="blah" alt="Windows" />
+            <img class="os-icon mb" src="blah" alt="Apple" />
+            <img
+              onclick="alert('This game is supported on Linux')"
+              class="os-icon mb"
+              src="blah" alt="Linux"/>
+            <div class="buy">
+              <button class="btn purple-bg">NEW</button>
+              <div class="prices align-end">
+                <p>€19.99</p>
+              </div>
+              <button onclick="buyItem()" class="btn green-bg">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./test.js"></script>
+  </body>
+</html>

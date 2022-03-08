@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+/* utlities */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.purple-text {
+  color: #9828ff;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.purple-bg {
+  background-color: #9828ff;
+}
+
+.grey-bg {
+  background-color: #999999;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.btn {
+  color: white;
+  padding: 1em 0.5em;
+  border: 0;
+  font-size: larger;
+}
+/* utlities */
+
+/* header styles */
+header {
+  background-color: black;
+  color: white;
+  border-top: 5px solid #9828ff;
+  padding: 10px 0;
+}
+
+.header-right {
+  width: 40px;
+}
+/* header styles
+
+/* main styles */
+main {
+  /* background-color: bisque; */
+  min-height: 400px;
+}
+
+/* main styles */
+
+/* hightlights styles */
+.highlights {
+  /* background-color: coral; */
+  min-height: 200px;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+.indicators {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.indicator {
+  min-height: 5px;
+  flex: 1;
+}
+
+/* hightlights styles */
+
+/* features styles */
+.features {
+  /* background-color: darkturquoise; */
+  min-height: 200px;
+}
+
+.feature {
+  /* background-color: palegoldenrod; */
+  flex: 1;
+  min-height: 200px;
+  background-color: white;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-copy {
+  padding: 1rem;
+}
+
+.os-icon {
+  width: 50px;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.prices {
+  text-align: right;
+}
+
+.old-prices {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.new-prices {
+  font-size: larger;
+}
+/* features styles */
